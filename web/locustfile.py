@@ -10,5 +10,5 @@ class WebTask(TaskSet):
 
 class WebUser(HttpLocust):
     task_set = WebTask
-    min_wait = 5000
-    max_wait = 5000
+    min_wait = 1000
+    max_wait = 1000
